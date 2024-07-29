@@ -10,6 +10,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>HelloSpring</module>
+        <module>MybatisSpring</module>
     </modules>
 
     <parent>
