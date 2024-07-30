@@ -1,5 +1,6 @@
 package org.huzijdbc.mapper;
 
+
 import org.huzijdbc.bean.User;
 import org.springframework.jdbc.core.RowMapper;
 
