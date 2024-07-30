@@ -10,7 +10,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>HelloSpring</module>
-        <module>MybatisSpring</module>
+        <module>JDBCSpring</module>
     </modules>
 
     <parent>
@@ -32,6 +32,10 @@
             <groupId>cn.hutool</groupId>
             <artifactId>hutool-all</artifactId>
             <version>5.7.6</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-actuator-autoconfigure</artifactId>
         </dependency>
     </dependencies>
 

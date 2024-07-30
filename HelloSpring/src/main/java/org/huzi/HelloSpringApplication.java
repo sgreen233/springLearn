@@ -1,7 +1,6 @@
 package org.huzi;
 
 import cn.hutool.core.util.StrUtil;
-import javafx.application.Application;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.GetMapping;
