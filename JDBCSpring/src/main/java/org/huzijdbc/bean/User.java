@@ -1,4 +1,4 @@
-package org.huzi.bean;
+package org.huzijdbc.bean;
 
 import java.io.Serializable;
 //实现一个序列化的对象

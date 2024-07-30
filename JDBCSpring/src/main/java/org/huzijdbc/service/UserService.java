@@ -1,6 +1,6 @@
-package org.huzi.service;
+package org.huzijdbc.service;
 
-import org.huzi.bean.User;
+import org.huzijdbc.bean.User;
 
 import java.util.List;
 import java.util.Map;

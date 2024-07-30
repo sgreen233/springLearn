@@ -11,6 +11,7 @@
     <modules>
         <module>HelloSpring</module>
         <module>JDBCSpring</module>
+        <module>MybatisSpring</module>
     </modules>
 
     <parent>

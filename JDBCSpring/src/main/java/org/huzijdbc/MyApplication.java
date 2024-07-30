@@ -1,4 +1,4 @@
-package org.huzi;
+package org.huzijdbc;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

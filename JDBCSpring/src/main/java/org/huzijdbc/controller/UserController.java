@@ -1,8 +1,8 @@
-package org.huzi.controller;
+package org.huzijdbc.controller;
 
 
-import org.huzi.bean.User;
-import org.huzi.service.UserService;
+import org.huzijdbc.bean.User;
+import org.huzijdbc.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;

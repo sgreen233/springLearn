@@ -1,8 +1,8 @@
-package org.huzi.service.Impl;
+package org.huzijdbc.service.Impl;
 
-import org.huzi.bean.User;
-import org.huzi.dao.UserDao;
-import org.huzi.service.UserService;
+import org.huzijdbc.bean.User;
+import org.huzijdbc.dao.UserDao;
+import org.huzijdbc.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,6 +1,6 @@
-package org.huzi.mapper;
+package org.huzijdbc.mapper;
 
-import org.huzi.bean.User;
+import org.huzijdbc.bean.User;
 import org.springframework.jdbc.core.RowMapper;
 
 import java.sql.ResultSet;

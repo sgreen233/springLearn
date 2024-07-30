@@ -1,13 +1,13 @@
-package org.huzi.dao.Impl;
+package org.huzijdbc.dao.Impl;
 
-import org.huzi.bean.User;
-import org.huzi.dao.UserDao;
+import org.huzijdbc.bean.User;
+import org.huzijdbc.dao.UserDao;
 
 import java.sql.Types;
 import java.util.List;
 import java.util.Map;
 
-import org.huzi.mapper.UserMapper;
+import org.huzijdbc.mapper.UserMapper;
 import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;
 import org.springframework.stereotype.Repository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -50,7 +50,7 @@ public class UserDaoImpl implements UserDao {
 
     @Override
     public User findById(int id) {
-        String sql = "select * from student where sno = ?";
+        String sql = "select * from user where id = ?";
         Object[] args = { id };
         int[] argTypes = { Types.VARCHAR };
         List<User> userList = this.jdbcTemplate.query(sql, args, argTypes, new UserMapper());
