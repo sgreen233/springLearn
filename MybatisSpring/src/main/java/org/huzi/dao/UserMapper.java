@@ -7,7 +7,6 @@ import java.util.List;
 import java.util.Map;
 
 @Mapper
-@Component
 public interface UserMapper {
     List<Map<String, Object>> findAll();
 }

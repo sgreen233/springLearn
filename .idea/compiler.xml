@@ -8,8 +8,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="HelloSpring" />
-        <module name="MybatisSpring" />
         <module name="JDBCSpring" />
+        <module name="MybatisSpring" />
+        <module name="redisSpring" />
       </profile>
     </annotationProcessing>
   </component>
@@ -18,6 +19,7 @@
       <module name="HelloSpring" options="-parameters" />
       <module name="JDBCSpring" options="" />
       <module name="MybatisSpring" options="" />
+      <module name="redisSpring" options="" />
     </option>
   </component>
 </project>
